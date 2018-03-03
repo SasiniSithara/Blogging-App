@@ -1,0 +1,17 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <div class="jumbotron">
+        <div class="container" align="center">
+          <h1 class="display-3">Blogging App</h1>
+          <p>This is a simple flask app to create new articles. One can see other articles but can edit or delete their own articles only. 
+              Like in normal blogs.
+          </p>
+          <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+          {% if session.logged_in == NULL %}
+            <a href="/register" class="btn btn-primary btn-lg"> Register</a>
+            <a href="/login" class="btn btn-success btn-lg"> Login</a>
+          {% endif %}
+        </div>
+    </div>
+{% endblock %}
