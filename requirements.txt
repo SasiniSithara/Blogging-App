@@ -1,0 +1,6 @@
+flask
+flask_mysqldb
+wtforms
+passlib
+dotenv
+functools

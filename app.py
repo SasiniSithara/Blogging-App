@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request, flash, redirect, url_for, session, logging
-from data import Articles
 from flask_mysqldb import MySQL
 from wtforms import Form, StringField, TextAreaField, PasswordField, validators
 from passlib.hash import sha256_crypt
@@ -24,7 +23,6 @@ app.config['MYSQL_CURSORCLASS'] = os.environ.get('MYSQL_CURSORCLASS')
 # init mysql
 mysql = MySQL(app)
 
-# Articles = Articles()
 
 @app.route('/')
 def index():
