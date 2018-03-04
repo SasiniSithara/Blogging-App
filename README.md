@@ -4,7 +4,9 @@ This app provides a platform to buil your own Blogs, edit them and also view oth
 
 ## To start the app
 
- - Install the required packages (the requirements.txt will be added shortly)
+ - Install the required packages
+    
+    `pip install -r requirements.txt`
  
  - Rename `.env-example` to `.env` and make the required changes like updating the following
  
