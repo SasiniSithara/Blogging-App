@@ -23,4 +23,7 @@ This app provides a platform to build your own Blogs, edit them and also view ot
  
     `python app.py`
  
-
+- MY SQL QUERIE ARE DONE
+ 
+    
+ 
